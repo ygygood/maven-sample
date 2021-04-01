@@ -16,4 +16,4 @@ notifications:
       - ygygood@naver.com
  
 install: true
-script: ./mvn clean install
+script: ./mvnw clean install
