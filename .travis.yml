@@ -15,8 +15,5 @@ notifications:
     recipients:
       - ygygood@naver.com
 
-before_install:
-  - chmod +x mvnw
- 
 install: true
-script: ./mvnw clean install
+script: mvnw clean install
